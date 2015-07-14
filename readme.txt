@@ -14,7 +14,7 @@ Filters the plugin [WP Offload S3](https://wordpress.org/plugins/amazon-s3-and-c
 Filters the plugin [WP Offload S3](https://wordpress.org/plugins/amazon-s3-and-cloudfront/) by stopping images only from uploading to the S3 bucket.
 
 = Contributing and reporting bugs =
-You can contribute code to this plugin via GitHub: https://github.com/seb86/Offload-S3-Filter-Image-File-Types
+You can contribute code to this plugin via GitHub: https://github.com/seb86/WP-Offload-S3-Filter-Image-File-Types
 
 = Support =
 Use the WordPress.org forums for [community support](https://wordpress.org/support/plugin/wp-offload-s3-filter-image-file-types). If you spot a bug, you can of course log it on [Github](https://github.com/seb86/WP-Offload-S3-Filter-Image-File-Types/issues) instead where I can act upon it more efficiently.
