@@ -1,13 +1,13 @@
 <?php
 /*
- * Plugin Name: Offload S3 Filter Image File Types
- * Description: Filters the plugin Offload S3 by stopping images only from uploading to the S3 bucket.
- * Author: Sebastien Dumont
- * Version: 0.0.1
- * Author URI: http://www.sebastiendumont.com
+ * Plugin Name: WP Offload S3 Filter Image File Types
+ * Description: Filters the plugin WP Offload S3 by stopping images only from uploading to the S3 bucket.
+ * Author:      Sebastien Dumont
+ * Author URI:  http://www.sebastiendumont.com
+ * Version:     0.0.1
  */
 
-class Offload_S3_File_Type_Filter {
+class WP_Offload_S3_File_Type_Filter {
 
 	public function __construct() {
 		$this->init();
@@ -52,4 +52,4 @@ class Offload_S3_File_Type_Filter {
 
 }
 
-new Offload_S3_File_Type_Filter();
+new WP_Offload_S3_File_Type_Filter();
