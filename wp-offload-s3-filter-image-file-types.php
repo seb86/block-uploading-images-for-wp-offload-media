@@ -29,18 +29,11 @@ class WP_Offload_S3_File_Type_Filter {
 	public function allowed_mime_types( $types ) {
 		// Disallow image formats
 		$image_formats = array(
-			'png', 
-			'jpeg', 
-			'jpg', 
-			'jif', 
-			'jfif', 
-			'jp2', 
-			'jpx', 
-			'j2k', 
-			'j2c', 
+			'bmp', 
 			'gif', 
-			'tif', 
-			'tiff'
+			'jpg|jpeg|jpe', 
+			'png', 
+			'tiff|tif'
 		);
 
 		foreach( $image_formats as $format ) {
