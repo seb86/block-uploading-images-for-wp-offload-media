@@ -38,18 +38,14 @@ Installing "WP Offload S3 Filter Image File Types" can be done either by searchi
 = Q.1 What image file formats does it stop from uploading to S3? =
 
 A.1 The following formats have been filtered:
- * png
- * jpeg
- * jpg
- * jif
- * jfif
- * jp2
- * jpx
- * j2k
- * j2c
- * gif
- * tif
- * tiff
+ * .bmp
+ * .gif
+ * .jpg
+ * .jpeg
+ * .jpe
+ * .png
+ * .tiff
+ * .tif
 
 == Changelog ==
 
