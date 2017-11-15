@@ -1,18 +1,18 @@
 === WP Offload S3 - Filter Image File Types ===
 Contributors: sebd86
-Donate link: https://sebastiendumont.com/product/wp-offload-s3-filter-image-file-types/
+Donate link: https://sebastiendumont.com/plugin/wp-offload-s3-filter-image-file-types/
 Tags: offload, admin, amazon, images, file, file formats, filter, uploads, s3, media
 Requires at least: 4.3
-Tested up to: 4.7
-Stable tag: 0.0.1
+Tested up to: 4.9
+Stable tag: 0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Filters the plugin WP Offload S3 Lite created by Delicious Brains Inc by stopping images only from uploading to your S3 bucket.
+Filters WP Offload S3 created by Delicious Brains Inc by stopping images from uploading to your S3 bucket.
 
 == Description ==
 
-Filters the plugin [WP Offload S3 Lite](https://wordpress.org/plugins/amazon-s3-and-cloudfront/) created by [Delicious Brains Inc](http://t.deliciousbrains.com/SH4q) by stopping images only from uploading to your S3 bucket.
+Filters [WP Offload S3](http://t.deliciousbrains.com/SH4q) created by [Delicious Brains Inc](http://t.deliciousbrains.com/SH4q) by stopping images from uploading to your S3 bucket.
 
 This is great for those who are wanting better SEO Image search results as the images will be loading from your site and not from your S3 bucket.
 
@@ -55,9 +55,16 @@ The following formats have been filtered:
 
 = Does it work with WP Offload S3 Pro? =
 
-It should do but I have not yet tested it personally. If you tried [WP Offload S3 Pro](http://t.deliciousbrains.com/SH4q) and it works please let me know so I can simply say "Yes".
+Yes it does. You should [get a copy](http://t.deliciousbrains.com/SH4q).
 
 == Changelog ==
+
+= 0.0.2 =
+* Updated plugin header.
+* Improved inline documentation.
+* Tested with WP Offload S3 Pro.
+* Tested with WordPress 4.9
+* Updated the F.A.Q.
 
 = 0.0.1 =
 * Initial version
