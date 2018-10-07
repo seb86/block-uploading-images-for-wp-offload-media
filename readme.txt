@@ -1,38 +1,37 @@
-=== WP Offload S3 - Filter Image File Types ===
+=== Filter Image File Types for WP Offload Media ===
 Contributors: sebd86
-Donate link: https://sebastiendumont.com/plugin/wp-offload-s3-filter-image-file-types/
-Tags: offload, admin, amazon, images, file, file formats, filter, uploads, s3, media
-Requires at least: 4.3
-Tested up to: 4.9
-Stable tag: 0.0.2
+Tags: offload, admin, amazon, images, file, file formats, filter, uploads, s3, media, digital ocean, spaces
+Requires at least: 4.4
+Tested up to: 4.9.8
+Stable tag: 0.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Filters WP Offload S3 created by Delicious Brains Inc by stopping images from uploading to your S3 bucket.
+Filters WP Offload Media created by Delicious Brains Inc by stopping images from uploading to your CDN of choice.
 
 == Description ==
 
-Filters [WP Offload S3](http://t.deliciousbrains.com/SH4q) created by [Delicious Brains Inc](http://t.deliciousbrains.com/SH4q) by stopping images from uploading to your S3 bucket.
+Filters [WP Offload Media](http://t.deliciousbrains.com/SH4q) created by [Delicious Brains Inc](http://t.deliciousbrains.com/SH4q) by stopping images from uploading to your S3 bucket or Digital Ocean Spaces.
 
-This is great for those who are wanting better SEO Image search results as the images will be loading from your site and not from your S3 bucket.
+This is great for those who are wanting better SEO Image search results as the images will be loading from your site and not from your CDN of choice.
 
 = Contribute and Report Bugs =
-You can contribute code to this plugin via GitHub: https://github.com/seb86/WP-Offload-S3-Filter-Image-File-Types
+You can contribute code to this plugin via GitHub: https://github.com/seb86/Filter-Image-File-Types-for-WP-Offload-Media
 
 = Support =
-Use the WordPress.org forums for [community support](https://wordpress.org/support/plugin/wp-offload-s3-filter-image-file-types). If you spot a bug, you can of course log it on [Github](https://github.com/seb86/WP-Offload-S3-Filter-Image-File-Types/issues) instead where I can act upon it more efficiently.
+Use the WordPress.org forums for [community support](https://wordpress.org/support/plugin/wp-offload-s3-filter-image-file-types). If you spot a bug, you can of course log it on [Github](https://github.com/seb86/Filter-Image-File-Types-for-WP-Offload-Media/issues) instead where I can act upon it more efficiently.
 
 = Please Leave a Review =
-Your ratings make a big difference. If you like WP Offload S3 - Filter Image File Types, please consider spending a minute or two [leaving a review](https://wordpress.org/support/view/plugin-reviews/wp-offload-s3-filter-image-file-types?rate=5#postform) and tell me what you think about the plugin.
+Your ratings make a big difference. If you like Filter Image File Types for WP Offload Media, please consider spending a minute or two [leaving a review](https://wordpress.org/support/view/plugin-reviews/wp-offload-s3-filter-image-file-types?rate=5#postform) and tell me what you think about the plugin.
 
 **More information**
 
 - Other [WordPress plugins](http://profiles.wordpress.org/sebd86/) by [Sébastien Dumont](https://sebastiendumont.com/)
 - Contact Sebastien on Twitter: [@sebd86](http://twitter.com/sebd86)
-- If you're a developer yourself, follow or contribute to the [WP Offload S3 - Filter Image File Types plugin on GitHub](https://github.com/seb86/WP-Offload-S3-Filter-Image-File-Types)
+- If you're a developer yourself, follow or contribute to the [Filter Image File Types for WP Offload Media plugin on GitHub](https://github.com/seb86/Filter-Image-File-Types-for-WP-Offload-Media)
 
 == Installation ==
-Installing "WP Offload S3 - Filter Image File Types" can be done either by searching for "WP Offload S3 - Filter Image File Types" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+Installing "Filter Image File Types for WP Offload Media" can be done either by searching for "Filter Image File Types for WP Offload Media" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
 1. Download the plugin via WordPress.org
 2. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard.
@@ -53,11 +52,14 @@ The following formats have been filtered:
  * .tiff
  * .tif
 
-= Does it work with WP Offload S3 Pro? =
+= Does it work with WP Offload Media Pro? =
 
 Yes it does. You should [get a copy](http://t.deliciousbrains.com/SH4q).
 
 == Changelog ==
+
+= 0.0.3 =
+* Changed: Renamed plugin name due to WP Offload S3 changed to WP Offload Media and trademark guidelines.
 
 = 0.0.2 =
 * Updated plugin header.

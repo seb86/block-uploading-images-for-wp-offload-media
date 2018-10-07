@@ -1,13 +1,13 @@
 <?php
 /*
- * Plugin Name: WP Offload S3 - Filter Image File Types
- * Plugin URI:  https://sebastiendumont.com/plugin/wp-offload-s3-filter-image-file-types/
- * Version:     0.0.2
+ * Plugin Name: Filter Image File Types for WP Offload Media
+ * Plugin URI:  https://wordpress.org/plugins/wp-offload-s3-filter-image-file-types/
+ * Version:     0.0.3
  * Description: Filters WP Offload S3 by stopping images from uploading to the S3 bucket.
  * Author:      Sébastien Dumont
  * Author URI:  https://sebastiendumont.com
  *
- * Copyright: © 2017 Sébastien Dumont
+ * Copyright: © 2018 Sébastien Dumont
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
