@@ -1,37 +1,42 @@
-=== Filter Image File Types for WP Offload Media ===
-Contributors: sebd86
-Tags: offload, admin, amazon, images, file, file formats, filter, uploads, s3, media, digital ocean, spaces
+=== Block Uploading Images for WP Offload Media ===
+Contributors:      sebd86
+Donate link:       https://sebdumont.xyz/donate/
+Tags:              offload, admin, amazon, amazon s3, images, file, file formats, filter, uploads, s3, media, digitalocean
+Requires PHP:      5.6
 Requires at least: 4.4
-Tested up to: 4.9.8
-Stable tag: 0.0.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to:      5.1
+Stable tag:        1.0.0
+License:           GPLv2 or later
+License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
-Filters WP Offload Media created by Delicious Brains Inc by stopping images from uploading to your CDN of choice.
+Stops images from uploading directly to your Amazon S3 or DigitalOcean Spaces.
 
 == Description ==
 
-Filters [WP Offload Media](http://t.deliciousbrains.com/SH4q) created by [Delicious Brains Inc](http://t.deliciousbrains.com/SH4q) by stopping images from uploading to your S3 bucket or Digital Ocean Spaces.
+> Originally called "WP Offload S3 – Filter Image File Types" but had to be changed for trademark reasons.
+
+This plugin stops only images from uploading directly to your [Amazon S3](http://aws.amazon.com/s3/) or [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/) by filtering [WP Offload Media](https://deliciousbrains.com/wp-offload-media/). All other media continues to upload.
 
 This is great for those who are wanting better SEO Image search results as the images will be loading from your site and not from your CDN of choice.
 
 = Contribute and Report Bugs =
-You can contribute code to this plugin via GitHub: https://github.com/seb86/Filter-Image-File-Types-for-WP-Offload-Media
+You can [contribute code](https://github.com/seb86/block-uploading-images-for-wp-offload-media/blob/master/.github/CONTRIBUTING.md) to this plugin via the [GitHub](https://github.com/seb86/block-uploading-images-for-wp-offload-media/blob/master/.github/CONTRIBUTING.md) repository.
 
 = Support =
-Use the WordPress.org forums for [community support](https://wordpress.org/support/plugin/wp-offload-s3-filter-image-file-types). If you spot a bug, you can of course log it on [Github](https://github.com/seb86/Filter-Image-File-Types-for-WP-Offload-Media/issues) instead where I can act upon it more efficiently.
+Use the WordPress.org forums for [community support](https://wordpress.org/support/plugin/wp-offload-s3-filter-image-file-types). If you spot a bug, you can of course log it on [Github](https://github.com/seb86/block-uploading-images-for-wp-offload-media/issues) instead where I can act upon it more efficiently.
 
 = Please Leave a Review =
-Your ratings make a big difference. If you like Filter Image File Types for WP Offload Media, please consider spending a minute or two [leaving a review](https://wordpress.org/support/view/plugin-reviews/wp-offload-s3-filter-image-file-types?rate=5#postform) and tell me what you think about the plugin.
+Your ratings make a big difference. If you like Block Uploading Images for WP Offload Media, please consider spending a minute or two [leaving a review](https://wordpress.org/support/view/plugin-reviews/wp-offload-s3-filter-image-file-types?rate=5#postform) and tell me what you think about the plugin.
 
 **More information**
 
 - Other [WordPress plugins](http://profiles.wordpress.org/sebd86/) by [Sébastien Dumont](https://sebastiendumont.com/)
 - Contact Sebastien on Twitter: [@sebd86](http://twitter.com/sebd86)
-- If you're a developer yourself, follow or contribute to the [Filter Image File Types for WP Offload Media plugin on GitHub](https://github.com/seb86/Filter-Image-File-Types-for-WP-Offload-Media)
+- If you're a developer yourself, follow or contribute to the [Block Uploading Images for WP Offload Media plugin on GitHub](https://github.com/seb86/block-uploading-images-for-wp-offload-media)
 
 == Installation ==
-Installing "Filter Image File Types for WP Offload Media" can be done either by searching for "Filter Image File Types for WP Offload Media" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+
+Installing "Block Uploading Images for WP Offload Media" can be done either by searching for "Block Uploading Images for WP Offload Media" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
 1. Download the plugin via WordPress.org
 2. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard.
@@ -40,7 +45,7 @@ Installing "Filter Image File Types for WP Offload Media" can be done either by 
 
 == Frequently Asked Questions ==
 
-= What image file formats does it stop from uploading to S3? =
+= What image file formats does it stop from uploading? =
 
 The following formats have been filtered:
  * .bmp
@@ -54,11 +59,11 @@ The following formats have been filtered:
 
 = Does it work with WP Offload Media Pro? =
 
-Yes it does. You should [get a copy](http://t.deliciousbrains.com/SH4q).
+Yes it does.
 
 == Changelog ==
 
-= 0.0.3 =
+= 1.0.0 =
 * Changed: Renamed plugin name due to WP Offload S3 changed to WP Offload Media and trademark guidelines.
 
 = 0.0.2 =

@@ -1,11 +1,18 @@
-# Filter Image File Types for WP Offload Media
+# Block Uploading Images for WP Offload Media
+
+[![WordPress Plugin Page](https://img.shields.io/badge/WordPress-%E2%86%92-lightgrey.svg?style=flat-square)](https://wordpress.org/plugins/wp-offload-s3-filter-image-file-types/)
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/wp-offload-s3-filter-image-file-types.svg?style=flat)](https://wordpress.org/plugins/wp-offload-s3-filter-image-file-types/) 
+[![WordPress Tested Up To](https://img.shields.io/wordpress/v/wp-offload-s3-filter-image-file-types.svg?style=flat)](https://wordpress.org/plugins/wp-offload-s3-filter-image-file-types/)
+[![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/r/wp-offload-s3-filter-image-file-types.svg?style=flat-square)](https://wordpress.org/support/view/plugin-reviews/wp-offload-s3-filter-image-file-types?filter=5)
+[![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/wp-offload-s3-filter-image-file-types.svg?style=flat)](https://wordpress.org/plugins/wp-offload-s3-filter-image-file-types/)
 
 **Contributors:** sebd86  
-**Tags:** offload, admin, amazon, images, file, file formats, filter, uploads, s3, media, digital ocean, spaces  
-**Requires at least:** 4.4  
-**Tested up to:** 4.9.8  
+**Donate link:** https://sebdumont.xyz/donate/  
+**Tags:** offload, admin, amazon, amazon s3, images, file, file formats, filter, uploads, s3, media, digitalocean  
 **Requires PHP:** 5.6  
-**Stable tag:** 0.0.3  
+**Requires at least:** 4.4  
+**Tested up to:** 5.1  
+**Stable tag:** 1.0.0  
 **License:** GPL v2 or later  
 
 ###### Follow me
@@ -13,43 +20,52 @@
 
 ## Overview 🔔
 
-Filters [WP Offload Media](http://t.deliciousbrains.com/SH4q) created by [Delicious Brains Inc](http://t.deliciousbrains.com/SH4q) by stopping images from uploading to your S3 bucket or Digital Ocean Spaces.
+> Originally called "WP Offload S3 – Filter Image File Types" but had to be changed for trademark reasons.
 
-This is great for those who are wanting better SEO Image search results as the images will be loading from your site and not from your CDN of choice.
+This plugin stops only images from uploading directly to your [Amazon S3](http://aws.amazon.com/s3/) or [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/) by filtering [WP Offload Media](https://deliciousbrains.com/wp-offload-media/). All other media continues to upload.
+
+This is great for those who are wanting better SEO image search results as the images will be loading from your site and not from your CDN of choice.
+
 
 #### Requirements ✅
 
 To use this extension you will need:
 
 * WordPress v4.4+
-* WP Offload Media or WP Offload Media Pro
+* [WP Offload Media Lite](https://wordpress.org/plugins/amazon-s3-and-cloudfront/) or [WP Offload Media Pro](https://deliciousbrains.com/wp-offload-media/)
+
 
 #### Reporting Issues 📝
 
-If you think you have found a bug in the extension, please [open a new issue](https://github.com/seb86/Filter-Image-File-Types-for-WP-Offload-Media/issues/new) and I will do my best to help you out.
+If you think you have found a bug in the extension, please [open a new issue](https://github.com/seb86/block-uploading-images-for-wp-offload-media/issues/new) and I will do my best to help you out.
 
 
 ## Contribute
 
-If you or your company use Filter Image File Types for WP Offload Media or appreciate the work I’m doing in open source, please consider supporting me directly so I can continue maintaining it.
+If you or your company use Block Uploading Images for WP Offload Media or appreciate the work I’m doing in open source, please consider supporting me directly so I can continue maintaining it.
 
 You'll be helping to ensure I can spend the time not just fixing bugs, but keeping the project afloat. Any contribution you make is a big help and is greatly appreciated.
 
-Please also consider starring ✨ and sharing 👍 the repo! This helps the project getting known and grow with the community. 🙏
+Please also consider starring ✨ and sharing 👍 the project repo! This helps the project getting known and grow with the community. 🙏
 
-If you want to do a one-time donation, you can donate to:
+I accept one-time donations and monthly via [BuyMeACoffee.com](https://www.buymeacoffee.com/sebastien)
 - [My PayPal](https://www.paypal.me/codebreaker)
 - [BuyMeACoffee.com](https://www.buymeacoffee.com/sebastien)
+- Bitcoin (BTC): `3L4cU7VJsXBFckstfJdP2moaNhTHzVDkKQ`
+- Ethereum (ETH): `0xc6a3C18cf11f5307bFa11F8BCBD51F355b6431cB`
+- Litecoin (LTC): `MNNy3xBK8sM8t1YUA2iAwdi9wRvZp9yRoi`
+
+Thank you for your support! 🙌
 
 
 ##### License
 
-Filter Image File Types for WP Offload Media is released under [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.html).
+Block Uploading Images for WP Offload Media is released under [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.html).
 
 
 ##### Credits
 
-Filter Image File Types for WP Offload Media is developed and maintained by [Sébastien Dumont](https://sebastiendumont.com/about/).
+Block Uploading Images for WP Offload Media is developed and maintained by [Sébastien Dumont](https://sebastiendumont.com/about/).
 
 ---
 
