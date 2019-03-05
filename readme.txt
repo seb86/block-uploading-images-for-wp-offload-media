@@ -1,21 +1,21 @@
 === Block Uploading Images for WP Offload Media ===
 Contributors:      sebd86
 Donate link:       https://sebdumont.xyz/donate/
-Tags:              offload, admin, amazon, amazon s3, images, file, file formats, filter, uploads, s3, media, digitalocean
+Tags:              uploads, amazon, s3, amazon s3, digitalocean, google cloud storage, gcs, mirror, admin, media, cdn, cloudfront, images, file formats
 Requires PHP:      5.6
 Requires at least: 4.4
 Tested up to:      5.1
-Stable tag:        1.0.0
+Stable tag:        1.0.1
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
-Stops images from uploading directly to your Amazon S3 or DigitalOcean Spaces.
+Stops images from uploading directly to your choice of CDN storage service.
 
 == Description ==
 
 > Originally called "WP Offload S3 – Filter Image File Types" but had to be changed for trademark reasons.
 
-This plugin stops only images from uploading directly to your [Amazon S3](http://aws.amazon.com/s3/) or [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/) by filtering [WP Offload Media](https://deliciousbrains.com/wp-offload-media/). All other media continues to upload.
+This plugin stops only images from uploading directly to your [Amazon S3](http://aws.amazon.com/s3/), [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/) or [Google Cloud Storage](https://cloud.google.com/storage/) by filtering [WP Offload Media](https://deliciousbrains.com/wp-offload-media/). All other media file types continue to upload.
 
 This is great for those who are wanting better SEO Image search results as the images will be loading from your site and not from your CDN of choice.
 
@@ -62,6 +62,11 @@ The following formats have been filtered:
 Yes it does.
 
 == Changelog ==
+
+= 1.0.1 =
+* Changed: Class name to _WP_Offload_Media_Block_Upload_Images_
+* Tweaked: Tags used for filtering WP.org plugin directory search results.
+* Updated readme.txt to mention Google Cloud Storage for WP Offload Media v2.1
 
 = 1.0.0 =
 * Changed: Renamed plugin name due to WP Offload S3 changed to WP Offload Media and trademark guidelines.

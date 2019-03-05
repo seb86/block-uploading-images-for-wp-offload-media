@@ -8,11 +8,11 @@
 
 **Contributors:** sebd86  
 **Donate link:** https://sebdumont.xyz/donate/  
-**Tags:** offload, admin, amazon, amazon s3, images, file, file formats, filter, uploads, s3, media, digitalocean  
+**Tags:** uploads, amazon, s3, amazon s3, digitalocean, google cloud storage, gcs, mirror, admin, media, cdn, cloudfront, images, file formats  
 **Requires PHP:** 5.6  
 **Requires at least:** 4.4  
 **Tested up to:** 5.1  
-**Stable tag:** 1.0.0  
+**Stable tag:** 1.0.1  
 **License:** GPL v2 or later  
 
 ###### Follow me
@@ -22,7 +22,7 @@
 
 > Originally called "WP Offload S3 – Filter Image File Types" but had to be changed for trademark reasons.
 
-This plugin stops only images from uploading directly to your [Amazon S3](http://aws.amazon.com/s3/) or [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/) by filtering [WP Offload Media](https://deliciousbrains.com/wp-offload-media/). All other media continues to upload.
+This plugin stops only images from uploading directly to your [Amazon S3](http://aws.amazon.com/s3/), [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/) or [Google Cloud Storage](https://cloud.google.com/storage/) by filtering [WP Offload Media](https://deliciousbrains.com/wp-offload-media/). All other media file types continue to upload.
 
 This is great for those who are wanting better SEO image search results as the images will be loading from your site and not from your CDN of choice.
 
@@ -31,7 +31,7 @@ This is great for those who are wanting better SEO image search results as the i
 
 To use this extension you will need:
 
-* WordPress v4.4+
+* WordPress v4.4 or higher
 * [WP Offload Media Lite](https://wordpress.org/plugins/amazon-s3-and-cloudfront/) or [WP Offload Media Pro](https://deliciousbrains.com/wp-offload-media/)
 
 
@@ -42,7 +42,7 @@ If you think you have found a bug in the extension, please [open a new issue](ht
 
 ## Contribute
 
-If you or your company use Block Uploading Images for WP Offload Media or appreciate the work I’m doing in open source, please consider supporting me directly so I can continue maintaining it.
+If you or your company use **Block Uploading Images for WP Offload Media** or appreciate the work I’m doing in open source, please consider supporting me directly so I can continue maintaining it.
 
 You'll be helping to ensure I can spend the time not just fixing bugs, but keeping the project afloat. Any contribution you make is a big help and is greatly appreciated.
 
