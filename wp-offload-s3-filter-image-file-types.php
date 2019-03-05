@@ -2,8 +2,8 @@
 /*
  * Plugin Name: Block Uploading Images for WP Offload Media
  * Plugin URI:  https://wordpress.org/plugins/wp-offload-s3-filter-image-file-types/
- * Version:     1.0.0
- * Description: Stops images from uploading directly to your Amazon S3 or DigitalOcean Spaces.
+ * Version:     1.0.1
+ * Description: Stops images from uploading directly to your choice of CDN storage service.
  * Author:      Sébastien Dumont
  * Author URI:  https://sebastiendumont.com
  *
@@ -12,7 +12,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-class WP_Offload_S3_File_Type_Filter {
+class WP_Offload_Media_Block_Upload_Images {
 
 	public function __construct() {
 		$this->init();
@@ -50,4 +50,4 @@ class WP_Offload_S3_File_Type_Filter {
 
 } // END class
 
-new WP_Offload_S3_File_Type_Filter();
+new WP_Offload_Media_Block_Upload_Images();
