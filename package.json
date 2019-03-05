@@ -1,8 +1,8 @@
 {
   "title": "Block Uploading Images for WP Offload Media",
-  "name": "block-uploading-images-for-wp-offload-media",
-  "description": "Stops only images from uploading directly to your Amazon S3 or DigitalOcean Spaces by filtering WP Offload Media Lite / Pro. All other media continues to upload.",
-  "version": "1.0.0",
+  "name": "wp-offload-s3-filter-image-file-types",
+  "description": "Stops images from uploading directly to your choice of CDN storage service.",
+  "version": "1.0.1",
   "private": false,
   "contributors": [
     "sebd86"
